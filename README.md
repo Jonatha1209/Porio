@@ -5,7 +5,7 @@ Porio is a simple interpreted language with basic variable declarations, assignm
 
 ---
 
-1. Variable Declaration
+### 1. Variable Declaration
 ------------------------
 Variables are declared using the `val` keyword followed by the type and the variable name. By default, they are initialized with type-specific default values.
 
@@ -22,7 +22,7 @@ Supported Types and Default Values:
 
 ---
 
-2. Variable Assignment
+### 2. Variable Assignment
 -----------------------
 Variables are assigned values using the `assign` keyword.
 
@@ -33,7 +33,7 @@ assign name "John";
 
 ---
 
-3. Output (`valLog`)
+### 3. Output (`valLog`)
 ----------------------
 The `valLog()` function is used to print expressions.
 
@@ -44,7 +44,7 @@ valLog(x + 5);  // Prints the value of x + 5
 
 ---
 
-4. Input (`input`)
+### 4. Input (`input`)
 -------------------
 User input is read using the `input` keyword.
 
@@ -55,7 +55,7 @@ input username string;  // Reads a string from user input
 
 ---
 
-5. Conditional Statements (`if`)
+### 5. Conditional Statements (`if`)
 --------------------------------
 Conditional statements start with `if (<condition>) {` and end with `} end`.
 
@@ -67,7 +67,7 @@ if (x > 10) {
 
 ---
 
-6. Example Code
+### 6. Example Code
 ----------------
 ```cpp
 val integer x;
@@ -82,7 +82,7 @@ if (y > x) {
 
 ---
 
-7. Summary
+### 7. Summary
 -----------
 - `val <type> <var>;` -> Declares a variable.
 - `assign <var> <value>;` -> Assigns a value to a variable.
